@@ -37,6 +37,7 @@ class Solution:
 
             # return the index for both elements that add up to the target
             return [d[r], i]
+
         # If r is not in the dictionary, add the current element to the dictionary
         # {Key (number in the array): Value (index in the array)}
         d[j] = i
