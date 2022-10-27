@@ -1,6 +1,8 @@
 # Problem page: https://leetcode.com/problems/find-pivot-index/
 # Better solution: https://leetcode.com/problems/find-pivot-index/discuss/109255/Short-Python-O(n)-time-O(1)-space-with-Explanation
 
+from typing import List
+
 
 class Solution:
     def pivotIndex(self, nums: List[int]) -> int:

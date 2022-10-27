@@ -11,8 +11,8 @@ def runningSum(nums):
     return nums
 
 
-nums = [1, 2, 3, 4, 5]
-print(f"Nums:", nums)
+input = [1, 2, 3, 4, 5]
+print(f"Nums:", input)
 
-result = runningSum(nums)
+result = runningSum(input)
 print(f"Running sum of nums:", result)
